@@ -1,6 +1,6 @@
 version: '3'
 services:
-  db:
+  dbPractPostgre:
       image: postgres:latest
       ports:
           - "5400:5432"
