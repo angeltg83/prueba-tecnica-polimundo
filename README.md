@@ -10,5 +10,15 @@ En esta seccion se describe las apis creadas de pruebas
   - No recibe parametros y devuelve el listado de mascotas
 - GET localhost:8001/api/mascotas/dueno/1
   - Recibe como parametro en id del dueño, y devuelve las mascotas del dueño
+  
+  ## Docker
+  Ir a la carpeta raiz del proyecto y ejecutar lo siguiente
+  - sudo docker-compose up
+  - Ejecutamos # sudo docker ps, y copiamos el nombre del contenedor que se ejecuto
+  - Ejecutamos # sudo docker exec -i <nombre_del_contenedor> psql -U postgres < db/base.sql, reemplazando el nombre del contenedor copiado
+  - ejecutamos # php artisan migrate
+  - ejecutamos # php artisan db:seed
+
+Fin ...
 
 :) 
