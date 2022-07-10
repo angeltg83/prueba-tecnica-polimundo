@@ -19,6 +19,14 @@ Ir a la carpeta raiz del proyecto y ejecutar lo siguiente
 - ejecutamos # php artisan migrate
 - ejecutamos # php artisan db:seed
 
+## Capturas
+
+![image](https://user-images.githubusercontent.com/8096392/178126611-8453947d-daea-4b38-9438-f5acfc37a2c1.png)
+
+![image](https://user-images.githubusercontent.com/8096392/178126628-81a1702f-7a51-4031-a179-7f02753977e1.png)
+
+
+
 Fin ...
 
 :) 
