@@ -11,6 +11,7 @@ class PersonaController extends Controller
     public function show($id)
     {
         try {
+            
             $mascotas = Persona::find($id)->mascotas;
             return response()->json(['mascotas' => $mascotas], 200);
         } catch (\Exception $e) {
